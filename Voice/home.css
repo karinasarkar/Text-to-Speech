@@ -1,0 +1,77 @@
+.row{
+    background: rgba( 255, 249, 249, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.0px );
+    -webkit-backdrop-filter: blur( 15.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 50px 0px;
+    margin: 5rem 3rem;
+}
+body{
+    background-image: url("Frame 1.jpg");
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.label{
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.button{
+    background: linear-gradient(89.95deg, rgba(5, 238, 250, 0.75) 0.69%, #778AE6 99.96%);
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 12px 0px;
+    letter-spacing: 0.2rem;
+}
+.text{
+    background-color: rgba(0, 0, 0, 0.2) ;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.text:focus{
+    background-color:rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.value{
+    background-color: rgba(0, 0, 0, 0.2) ;
+    padding: 7px;
+}
+
+input[type="range"]{
+    width: 100%;
+    border-radius: 100%;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: .35em;
+    border: 8px solid;
+    background: linear-gradient(270deg, #778AE6 0.76%, #F67BF8 100%);
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 1.1em;
+    width: 1.1em;
+    border-radius: 50%;
+    border: 0.3rem solid #05EEFA;
+    margin-top: -4px;
+    background-color: white;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
